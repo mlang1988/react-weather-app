@@ -1,11 +1,12 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <h1>Weather App!</h1>
       <footer>
         This project was coded by Mona Lang and is{" "}
         <a
