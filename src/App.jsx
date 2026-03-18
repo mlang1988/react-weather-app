@@ -1,0 +1,16 @@
+import React from "react";
+
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Weather App</h1>
+      <footer>
+        This project was coded by Mona Lang and is open-sourced on GitHub.
+      </footer>
+    </div>
+  );
+}
+
+export default App;
