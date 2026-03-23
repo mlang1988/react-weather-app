@@ -26,7 +26,15 @@ function App() {
           >
             open-sourced
           </a>{" "}
-          on GitHub.
+          on GitHub and hosted on{" "}
+          <a
+            href="https://illustrious-crisp-7b0983.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
