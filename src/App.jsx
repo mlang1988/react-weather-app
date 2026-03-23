@@ -10,7 +10,15 @@ function App() {
       <div className="container">
         <Weather defaultCity="Berlin" />
         <footer>
-          This project was coded by Mona Lang and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://github.com/mlang1988"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mona Lang
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/mlang1988/react-weather-app"
             target="_blank"
