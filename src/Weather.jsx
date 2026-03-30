@@ -19,7 +19,6 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.city,
     });
-    console.log(weatherData.iconUrl);
   }
 
   function handleSubmit(event) {
