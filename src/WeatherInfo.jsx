@@ -4,10 +4,10 @@ import WeatherTemp from "./WeatherTemp";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="WeatherInfo mb-5">
       <div className="d-flex justify-content-between">
         <div>
-          <h1>{props.data.city}</h1>
+          <h1 className="mb-1">{props.data.city}</h1>
           <ul>
             <li>
               <FormattedDate date={props.data.date} />, {props.data.description}

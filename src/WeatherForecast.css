@@ -2,7 +2,13 @@
   text-align: center;
 }
 
+.tempMax {
+  color: #ff6c6c;
+  font-weight: 600;
+}
+
 .tempMin {
-  opacity: 0.6;
+  color: #ff6c6c;
+  opacity: 0.8;
   margin-left: 7px;
 }

@@ -1,10 +1,27 @@
+body {
+  background-color: #ff9090;
+}
+
 .App {
   max-width: 800px;
   margin: 30px auto;
+  background-color: #f8f8f8ce;
+
+  border-radius: 4px;
 }
 
 .App footer {
   font-size: 13px;
   margin: 10px auto;
   text-align: center;
+  padding-bottom: 15px;
+}
+
+.App footer a {
+  text-decoration: none;
+  color: #ff6c6c;
+}
+
+.App footer a:hover {
+  text-decoration: underline;
 }
